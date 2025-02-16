@@ -1,0 +1,23 @@
+1. initialize new python project
+4. create file structure using terminal
+        mkdir config dags data etls logs pipelines tests utils
+3. create .gitignore and be sure to include:
+        venv 
+        *.conf
+        logs
+        .idea
+        __pycache__
+4. create new repository and push current changes
+5. using terminal, create files to set up docker environment & install packages
+        touch airflow.env docker-compose.yaml Dockerfile
+6. all info in airflow.env, docker-compose.yaml and Dockerfile copy/pasted from AirScholar's github 
+        https://github.com/airscholar/RedditDataEngineering/
+        CodeWithYu Youtube https://www.youtube.com/watch?v=LSlt6iVI_9Y
+7. Youtube video says to do command pip freeze > requirements.txt 
+        This did NOT work for me! For some reason, it included some filepaths that caused the build to fail on my end.
+        The command that worked was 
+            pip3 list --format=freeze > requirements.txt
+8. Now, execute the build by running
+            docker compose up -d --build  
+9. Ensure build is successfull by checking Docker Desktop app and checking your containers running under the appropriate source
+        in my case, this was reddit-data-engineer 
