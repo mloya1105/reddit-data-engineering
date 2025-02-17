@@ -39,17 +39,7 @@ def transform_data(post_df: pd.DataFrame):
                                  post_df['edited'], edited_mode).astype(bool)
     post_df['num_comments'] = post_df['num_comments'].astype(int)
     post_df['score'] = post_df['score'].astype(int)
-    post_df['upvote_ratio'] = post_df['upvote_ratio'].astype(float)
-    post_df['selftext'] = post_df['selftext'].astype(str)
     post_df['title'] = post_df['title'].astype(str)
-    post_df['id'] = post_df['id'].astype(str)
-    post_df['url'] = post_df['url'].astype(str)
-    spoiler_mode = post_df['spoiler'].mode()
-    post_df['spoiler'] = np.where(post_df['spoiler'].isin([True,False]),
-                                 post_df['spoiler'], spoiler_mode).astype(bool)
-    stickied_mode = post_df['stickied'].mode()
-    post_df['stickied'] = np.where(post_df['stickied'].isin([True,False]),
-                                 post_df['stickied'], stickied_mode).astype(bool)
     
     return post_df
 
