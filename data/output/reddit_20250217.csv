@@ -1,0 +1,131 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1iqgoeo,ADF alternatives strengths and weaknesses,"I come from a data analysis/stats background, for the past year I have used ADF to create our data warehouse from our ERP and a few other applications, which was already existing when I took the job. I've heard of other tools that can be used for ETL but I not sure why you would use say: Python Scripts, Airflow, AWS Glue, SSIS, Databricks (with or without ADF) instead. Can someone give me kind of a brief understanding as to why someone might choose different solutions if they were starting fresh with a new ETL? Thank you.",21,31,Think_Rub2459,2025-02-16 01:12:43,https://www.reddit.com/r/dataengineering/comments/1iqgoeo/adf_alternatives_strengths_and_weaknesses/,0.88,False,False,False,False
+1iquxmd,Making a Streaming JOIN 50% faster,[https://www.epsio.io/blog/optimizing-streaming-joins-leveraging-asymmetry-for-better-performance](https://www.epsio.io/blog/optimizing-streaming-joins-leveraging-asymmetry-for-better-performance),11,0,bobbymk10,2025-02-16 15:44:00,https://www.reddit.com/r/dataengineering/comments/1iquxmd/making_a_streaming_join_50_faster/,0.84,False,False,False,False
+1iqo3zl,What’s my title/role and how to become a data engineer,"I do understand all companies can have different roles/responsibilities but I think Im on the wrong trajectory.
+
+
+
+Background: 3 years as BI developer then I moved to the current company to become a data engineer. It’s the fourth year(7 years total exp) with the new consulting company. 
+
+For the last customer Ive built a data platform using their data mesh architecture(they provided the platform, resource groups etc). I have built up the data ingestion part, cleaning and building the presentation layer applying the business logic. Talking to the customer about their remaining budget, whats needed in the dashboard, changing the logic accordingly and building the dashboard too. It’s a small project, I can handle alone, but no tests, pull requests, code review is being done. The customer appreciates the flexibility and since its a small project, i never cared to get into full blown tests etc, as a lot of projects start as PoC and then the question, could you refresh it daily? So it’s all built up in notebooks orchestrated by adf. A lot of projects are just like mine at this company, and I’m lacking data engineering coding skills to be a “senior data engineer” if I would to switch jobs.
+
+
+
+What is my title and any advice from more senior engineers, how should I transition into more engineering data projects where I could pick up best practices how to code properly. ",10,5,Typical_Respect_908,2025-02-16 08:48:57,https://www.reddit.com/r/dataengineering/comments/1iqo3zl/whats_my_titlerole_and_how_to_become_a_data/,0.76,False,False,False,False
+1ir381i,API’s in production,Hey everyone I’m an aspiring data engineer. Getting to the point in my studying where I’m practicing using API’s as my source data for ELT pipelines. I’ve seen engineers use flask to help with the process. I’m curious to know if it’s the most common tool used or if there are many different ways to interact with an API. Would be cool to see the various different ways to work with API’s in a stack.,11,13,Gold_data1,2025-02-16 21:32:51,https://www.reddit.com/r/dataengineering/comments/1ir381i/apis_in_production/,0.87,False,False,False,False
+1iqoykw,Advice - Should I move to DE as 1.5 YOE SDE,"So I recieved an offer from a big company for the role of Data Engineer. I worked as an SDE for 1.5 years now and am very interested in scalable backend architecture.
+However during interveiws I was told that the company is building a new Platform and good SDE skills are required for the role and also lot of AI/ML things in works, so I'm excited about it, but want future options to be open to move back to SDE/Backend roles.
+I have reached out to the team I'll be joining and will be asking about future prospects with them first hand.
+I wanted to understand the broader perspective from community here, how difficult is it move to Backend/SDE after DE. And any particular question you recommend I ask the team I'll be joining
+.",6,1,crudybagger,2025-02-16 09:51:45,https://www.reddit.com/r/dataengineering/comments/1iqoykw/advice_should_i_move_to_de_as_15_yoe_sde/,0.69,False,False,False,False
+1iqr378,Relocating away from Europe,"Hi, 
+
+This is partly a fictional question, but how easy it is to relocate to Australia, Canada or USA (this is probably impossible) as a data engineer with 5yoe? 
+
+I have been dreaming about it for a while now and might consider that in a couple of years. I live in a EU country. I guess it's only big companies I need to target and probably have to be really good at what I do. Any success stories about this? :) ",7,40,Ok-League-5881,2025-02-16 12:22:03,https://www.reddit.com/r/dataengineering/comments/1iqr378/relocating_away_from_europe/,0.61,False,False,False,False
+1iqya2s,What's the current job market like for DE? UK/EU/Remote,"So 3 years ago is when I started as a DE in the UK. I found there were a lot of opportunities but I lacked experience until I got a lucky break and fell into a junior role nicely. 
+
+After a year I moved to my current position still as a junior but at a respectable 37k, but even then it felt there were a lot of opportunities but also very congested at the same time. 
+
+I've been wanting to move out of the UK for Austria/Swiss/Germany (ideally) but find there aren't a crazy amount of opportunities. But even for the UK it's not overly great and there seems to be a lot of people looking for DE roles. 
+
+What was it like for where you are if you've been looking recently? Or if you currently work, are there empty openings or layoffs or spoilt for choice with candidates? 
+
+",6,20,Material_Direction_1,2025-02-16 18:05:41,https://www.reddit.com/r/dataengineering/comments/1iqya2s/whats_the_current_job_market_like_for_de/,0.62,False,False,False,False
+1iqpco3,Opinions please - best options for data analytics?,"I am working in a company which has some antiquated IT approach and wants a much better handle on its data. I have been told they want ""amazing"" analytics for ""stuff"" and assume I know exactly what it is that they want. I don't, but maybe if I produce a web app that gives them good information they'll have a better idea of what they actually do want.
+
+Their infrastructure is not great. They have a big cloud based Oracle database, but no bells and whistles and only allows local access. They have a flaky Windows VM that is the only thing that acts as a server they have proper control over (again only local access, except Remote Desktop). I asked about setting up a CentOS VM but they got a bit concerned as their permanent tech are Windows stack exclusively.
+
+The Oracle database has confidential personal data on it, but generalised statistics based off of it, which is what I'd actually want to build, pose no security risk.
+
+So what do people think? I want to keep costs low and have the lowest number of questions about procurement while I still feel out the territory. I guess I could just go for PowerBI but I don't want to go down a road that would be overly limiting or not have sufficient interactivity to be considered ""amazing"". My line manager has made it clear he doesn't want me to ask him questions but do what I want, within reason.
+
+Weirdly they might also have a Snowflake subscription, but nobody seems to be entirely certain, and I'm not sure it's relevant given the current setup. ",5,7,Super-Cynical,2025-02-16 10:19:15,https://www.reddit.com/r/dataengineering/comments/1iqpco3/opinions_please_best_options_for_data_analytics/,0.79,False,False,False,False
+1ir00k6,Data engineering professional development courses?,"Currently working for 5 months as the only member of the data team at a small financial services firm. They had no data architecture/management to speak of beforehand, hence the hire. However, I am still quite junior (2 years out of university) and my academic background is Economics so not directly engineering-related, although definitely data-adjacent.
+
+They offer quite a generous professional development scheme. As long as you can convince that it will provide business value, it’s likely they’ll approve anything.
+
+Does anyone have any suggestions for how I can best take advantage of this scheme? I’d like to upskill more in data engineering skills rather than data analysis (as I have primarily been doing so far).
+
+I am in the UK, TIA for any suggestions.
+
+
+",4,3,henry73011,2025-02-16 19:17:34,https://www.reddit.com/r/dataengineering/comments/1ir00k6/data_engineering_professional_development_courses/,0.83,False,False,False,False
+1ir79aj,Calculating retention rate summaries,"Hey all,
+
+This came up at work and while I have something working, I’m not really fully satisfied with the solution I have. I feel like there could be something better in the short term and something definitely better in the long term if we needed to rework some things.
+
+Essentially imagine this scenario:
+
+You are a newish data engineer tasked with creating a report that will provide aggregated metrics for a particular window of time showing the retention rate of memberships bought by your customers grouped by state.
+
+Essentially we want to see something like this:
+
+State | Memberships at Start Date | Memberships at End Date | Revenue at Start Date | Revenue at End Date | Memberships Retained | Revenue Retained
+
+NY | 100 | 80 | $50 | $60 | 80% | 120%
+
+Users can select Start Date and End Date from a date picker or input box of some sort.
+
+Keep in mind we only want to count memberships that were retained from the ones at the start date. So if a new membership came in after the start date, we don’t care for it in the displayed report.
+
+The data is modeled roughly as follows:
+
+Users can have multiple memberships under one account.
+
+Memberships have effective start dates and effective end dates and price of membership. Rows in this table can share same membership_group which would typically be renewals of the same membership with different effective dates and often price as well.
+
+So for user account John Doe, lets say he has 3 memberships.
+
+Membership group ABC effective from 2023-01-01 to 2024-01-01 for $100
+
+Membership group ABC effective from 2024-01 to 2025-01-01 for $120
+
+Membership group DEF effective from 2023-06-01 to 2024-06-01 for $50
+
+If we input dates for the report of 2023-01-10 to 2024-01-10, Membership group ABC would be considered active for this reporting period because row 1 was active at the start and row 2 of the same membership group was active at the end date. Membership group DEF would not be considered for the retention report since it was not active at the start or end.
+
+The trouble I’ve been having is that I can kind of do this in Excel and such where I count/sum up membership at start period based on whether a row has effective start date <= report start date and effective end date >= report end date. For end date I do essentially the same thing of effective start date <= report end date and effective end date >= report end date, but also that the earliest effective start date for this membership group is also <= report start date (since we only care about memberships that were effective at start of report date). This field I created in a new view after grouping each membership group.
+
+However I need to use helper columns to calculate this in Excel since in our DWH I don’t have access to the input dates from the report. Excel is super bad for doing these types of processing on larger amounts of data (500k+ rows) so I tried other tools. Metabase seemed promising but I had to do a workaround with their filters to allow me to dynamically filter my query. I cannot make a pivot table since it needs to do the aggregations directly on the view/table without complex query logic like mine.
+
+Any suggestion on things I can try or changes I can make to do this?
+
+A co-worker suggested PowerQuery on PowerBI but our work uses all Macs and I seem to be limited without desktop PowerBI. I would have to get Parallels and budget/approval for it.
+
+Ideally there is a better way with how I am creating the view or how we model the data that I can leverage any of these tools that can handle the processing better without my janky workarounds.
+
+Any ideas are appreciated.",3,0,adgjl12,2025-02-17 00:38:16,https://www.reddit.com/r/dataengineering/comments/1ir79aj/calculating_retention_rate_summaries/,1.0,False,False,False,False
+1iqwf2t,Next Career Move?,"Currently have 10+ yrs developing in MS SSIS with variations of use with C# or T-SQL procedure calls. I’d like to start broadening my tool set and was looking at AWS platform for data engineering jobs. I have yet to have to use python in any instance, but what would you guys recommend?",2,0,avg_grl,2025-02-16 16:48:46,https://www.reddit.com/r/dataengineering/comments/1iqwf2t/next_career_move/,0.63,False,False,False,False
+1iqttvr,Data Mart Assistance,"Hello,
+
+I am working on creating a data mart around ticketing. My grain is defined as issues as each ticket has an associated issue with it. I also have two dimensions (those being comments and attachments) that create a 1-many relationship with the issues fact table. I am running into problems with creating my final data model since it would contain duplicated issue records which to my knowledge should be avoided. Any advice on how to handle this?
+
+I am also new to data modeling and creating these marts. If there is a “checklist” that others go by to create these marts I would greatly appreciate sharing it for my future mart creations!
+
+Thanks in advance!",2,5,Fine-Current-7691,2025-02-16 14:53:01,https://www.reddit.com/r/dataengineering/comments/1iqttvr/data_mart_assistance/,0.76,False,False,False,False
+1ir7a9g,Using Dagster to learn transferable ETL techniques,"I come from a Data Analysis background and I've been using ADF for the past year at my job to manage a Datawarehouse ETL. I recently asked, on this sub, what other technologies might be worth looking into. The main one mentioned was Dagster + Python. I'm looking to learn important transferable ETL techniques while I use Dagster personally. What are some of the most important tasks that you think a newbie should learn in Dagster? What are things that Dagster does better or worse than other ETL tools? Thank you.",1,2,Think_Rub2459,2025-02-17 00:39:44,https://www.reddit.com/r/dataengineering/comments/1ir7a9g/using_dagster_to_learn_transferable_etl_techniques/,0.67,False,False,False,False
+1iqwtkr,Searching for a job opening as Data Engineer,"I've been searching for entry-level data engineering positions in India on LinkedIn, but the listings are few and far between, with most requiring 5+ years of experience.  Am I missing something in my search strategy, or should I be looking at other job boards?
+
+I got 2 years of experience developing ETL pipelines using spark. I had to leave my previous position due to personal reasons and I have been trying to find a new job for a month. And it been tough to find any openings.
+
+I am starting to doubt whether I am searching for it in the wrong place or if the job market is poor or something else.
+
+Any advice and help is appreciated and it will help me decide what I will do next.
+
+--This is a repost since I got the title wrong in the previous one",0,5,Fit_Speech_662,2025-02-16 17:05:39,https://www.reddit.com/r/dataengineering/comments/1iqwtkr/searching_for_a_job_opening_as_data_engineer/,0.5,False,False,False,False
+1iqhdo1,Can you give me advice between these two offers?,"Hello, I am from LATAM, and I have 2 different offers, one for a Data Engineer position in Walmart Global Tech and one for a Senior Data Engineer role in PET Smart. What do you think between those too? Which one has the best work life balance and wich one has the best on boarding? Also I've never had a Senior role before, what is your advice to be  prepare since day 1 for that role? Thanks  for your advice.",0,5,OkVisit5303,2025-02-16 01:50:13,https://www.reddit.com/r/dataengineering/comments/1iqhdo1/can_you_give_me_advice_between_these_two_offers/,0.5,False,False,False,False
+1iquzak,Anyone from India here? Need guidance,A fresher who got placed as a Data engineer for 3lpa INR,0,3,GarageFederal,2025-02-16 15:46:09,https://www.reddit.com/r/dataengineering/comments/1iquzak/anyone_from_india_here_need_guidance/,0.33,False,False,False,False
+1iqi5ka,Zach Wilson's Free YT BootCamp RAG Assistant,"If you attended Zach Wilson's recent free YouTube BootCamp, you know how frustrating it is to find out that he put it behind a paywall. As soon as I heard this, I took all the transcripts from his YouTube videos and decided to build a chatbot powered by RAG that can answer questions based on the entire corpus.
+
+This is not a traditional RAG system. Instead, it follows a hybrid approach that combines BM25 (Elasticsearch, keyword search) and semantic search (ChromaDB) to process around 700,000 tokens (inspired by **Anthropic's** Contextual Retrieval) and uses **OpenAI's o1-mini** (for its reasoning capabilities). The results have been impressive, providing accurate answers even without watching the videos.
+
+I'm sharing this to help fellow students! If you're curious about how the hybrid RAG system works, check out my [Substack](https://anirudhnuti.substack.com/p/building-a-cost-effective-data-engineering?r=31afgy). I post weekly Data Engineering projects in my newsletter, [DE-termined Engineering](https://anirudhnuti.substack.com/), and my upcoming post on **LLM-based Schema Change Propagation (ETL)** drops next Tuesday.
+
+Hope you find this chatbot helpful and possibly see you onboard on substack, thanks!
+
+NOTE: The GitHub repo doesn't include any transcripts due to copyright issues. It's only intended for people who already have their own transcripts! 
+
+https://reddit.com/link/1iqi5ka/video/s6rdqfv9xeje1/player
+
+",0,6,Heartsbaneee,2025-02-16 02:30:56,https://www.reddit.com/r/dataengineering/comments/1iqi5ka/zach_wilsons_free_yt_bootcamp_rag_assistant/,0.42,False,False,False,False
